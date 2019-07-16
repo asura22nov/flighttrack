@@ -23,12 +23,14 @@ $ termux-location
 }
 
 2.Create a shell script to record the gps records to a file in your moile
+
 #!/bin/bash
 while :
 do
 	echo`termux-location |head -n9|tail -n8|awk -v ORS= -F: '{print $2}'` >> location.txt
 	sleep 30
 done
+
 
 3. Run the script during your flight 
 $termux-loc.sh &
@@ -40,6 +42,7 @@ indigo-flight-mumbai-kolkata.py
 
 
 REFERENCE:
+
 https://wiki.termux.com/wiki/Termux-location
 
 https://wiki.termux.com/wiki/Termux:API

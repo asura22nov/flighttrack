@@ -203,6 +203,6 @@ gmap3.scatter( Charminar_top_attraction_lats, Charminar_top_attraction_lons, '#F
 # Plot method Draw a line in between given coordinates
 gmap3.plot(Charminar_top_attraction_lats, Charminar_top_attraction_lons, 'cornflowerblue', edge_width = 3.0)
 #gmap.apikey = "Your_API_KEY"
-gmap3.apikey = "AIzaSyBswQI6RzC1DWyNXc43EBig20KMjAXy4cg"
+gmap3.apikey = "AIzaSyDW0g_hzLeLIumlAKfU-sJ3_zbxn8XBd_k"
 # Location where you want to save your file.
-gmap3.draw("C:\\ANAND\\anand(E)\\anand\\computer-ebooks\\python\\gmplot\\map13-scatter.html")
+gmap3.draw("C:\\anand\\map13-scatter.html")

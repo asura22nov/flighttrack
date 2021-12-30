@@ -4,6 +4,7 @@ INTRODUCTION:
 Using Android Termux Terminal API , collected GPS data for flight from Mumbai to Kolkata city and plotted the GPS coordinates using python gmplot and Google Maps API Key
 
 Link : https://asura22nov.github.io/flighttrack/
+
 REQUIREMENTS:
 
 1. Android Mobile with TERMUX terminal app installed
